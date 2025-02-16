@@ -8,6 +8,8 @@ import { ThemeProvider } from "@/components/theme/ThemeProvider";
 
 import { DATA } from "@/data/data";
 
+import { cx } from "@/utils/tailwind";
+
 const outfit = Outfit({
 	subsets: ["latin"],
 	variable: "--font-outfit",
@@ -51,7 +53,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning className={outfit.variable}>
-			<body className={`${outfit.variable} antialiased`}>
+			<body
+				className={cx(
+					"min-h-screen bg-background font-outfit antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
+					outfit.variable
+				)}
+			>
 				<ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 					{children}
 				</ThemeProvider>
