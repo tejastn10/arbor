@@ -46,37 +46,13 @@
 	--animate-marquee: marquee 50s linear infinite;
 	--animate-marquee-vertical: marquee-vertical 50s linear infinite;
 
-	@keyframes accordion-down {
-		from {
-			height: 0;
+	@keyframes growUnderline {
+		0% {
+			width: 0;
 		}
-		to {
-			height: var(--radix-accordion-content-height);
-		}
-	}
-	@keyframes accordion-up {
-		from {
-			height: var(--radix-accordion-content-height);
-		}
-		to {
-			height: 0;
-		}
-	}
-	@keyframes marquee {
-		from {
-			transform: translateX(0);
-		}
-		to {
-			transform: translateX(calc(-100% - var(--gap)));
-		}
-	}
-	@keyframes marquee-vertical {
-		from {
-			transform: translateY(0);
-		}
-		to {
-			transform: translateY(calc(-100% - var(--gap)));
-		}
+	  100% {
+			width: 100%;
+  	}
 	}
 }
 
@@ -212,4 +188,17 @@ pre > code {
 	display: block;
 	padding: 0;
 	overflow-x: auto;
+}
+
+.underline-slide {
+  @apply relative font-bold text-neutral-900 dark:text-neutral-100 transition-all duration-300;
+}
+
+.underline-slide::after {
+  content: "";
+  @apply absolute left-0 bottom-0 h-[2px] w-full bg-current scale-x-0 origin-left transition-transform duration-300;
+}
+
+.underline-slide:hover::after {
+  @apply scale-x-100;
 }
