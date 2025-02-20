@@ -18,18 +18,18 @@
 
 ## Features ⚡
 
-- **Next.js**: A React framework for server-side rendering, static site generation, and API routes.  
-- **TypeScript**: Ensures type safety and maintainability.  
-- **Pre-configured Tooling**:  
-  - **ESLint**: Enforces consistent code quality.  
-  - **Prettier**: Auto-formats code for readability.  
-  - **Husky**: Git hooks to enforce best practices before commits.  
-  - **Commitlint**: Ensures a standardized commit message format.  
-- **Tailwind CSS**: A utility-first CSS framework for styling.  
-- **Absolute Imports & Module Aliases**: Cleaner and more readable imports.  
-- **SEO Optimized**: Basic meta tags for better search engine indexing.  
-- **PWA-Ready**: Configuration available to enable Progressive Web App support.  
-- **Dark Mode Support**: Preconfigured with Tailwind’s dark mode support.  
+- **Next.js**: A React framework for server-side rendering, static site generation, and API routes.
+- **TypeScript**: Ensures type safety and maintainability.
+- **Pre-configured Tooling**:
+  - **ESLint**: Enforces consistent code quality.
+  - **Prettier**: Auto-formats code for readability.
+  - **Husky**: Git hooks to enforce best practices before commits.
+  - **Commitlint**: Ensures a standardized commit message format.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Absolute Imports & Module Aliases**: Cleaner and more readable imports.
+- **SEO Optimized**: Basic meta tags for better search engine indexing.
+- **PWA-Ready**: Configuration available to enable Progressive Web App support.
+- **Dark Mode Support**: Preconfigured with Tailwind’s dark mode support.
 - **Efficient Developer Experience**: Fast setup and optimized configuration.
 
 ---
