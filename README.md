@@ -95,12 +95,12 @@ arbor/
 
 ## License 📜
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
 ---
 
 ## Acknowledgments 🙌
 
 - Built with **Next.js** for modern web applications.  
-- Inspired by the glow of **Arbor**, providing a blazing-fast starting point for frontend projects.  
+- Inspired by the glow of **Arbor**, providing a blazing-fast starting point for frontend projects.
 - Made with ❤️ for developers who value a structured and efficient setup.
