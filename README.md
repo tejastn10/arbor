@@ -12,7 +12,7 @@
 [![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
-**Arbor** is a minimal yet powerful **Next.js** template designed for fast and scalable frontend development. It includes a pre-configured setup with **ESLint**, **Prettier**, **Husky**, and **Commitlint** to ensure high code quality and a seamless developer experience.
+**Arbor** is a minimal yet powerful **Next.js** template designed for fast and scalable frontend development. It includes a pre-configured setup with **BiomeJS**, **Husky**, and **Commitlint** to ensure high code quality and a seamless developer experience.
 
 ---
 
@@ -21,8 +21,7 @@
 - **Next.js**: A React framework for server-side rendering, static site generation, and API routes.
 - **TypeScript**: Ensures type safety and maintainability.
 - **Pre-configured Tooling**:
-  - **ESLint**: Enforces consistent code quality.
-  - **Prettier**: Auto-formats code for readability.
+  - **BiomeJS**: Enforces consistent code quality.
   - **Husky**: Git hooks to enforce best practices before commits.
   - **Commitlint**: Ensures a standardized commit message format.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
@@ -82,8 +81,7 @@ arbor/
 │   ├── hooks/          # Custom React hooks
 │   ├── contexts/       # Context API state management
 │   ├── lib/            # API and backend interactions
-├── .eslint.config.mjs  # ESLint configuration
-├── .prettierrc.yml     # Prettier configuration
+├── biome.json          # Biomejs configuration
 ├── .commitlintrc.yml   # Commitlint configuration
 ├── next.config.js      # Next.js configuration
 ├── tsconfig.json       # TypeScript configuration

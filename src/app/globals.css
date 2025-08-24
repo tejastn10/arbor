@@ -6,8 +6,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-	--font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--font-sans:
+		var(--font-sans), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol", "Noto Color Emoji";
 	--font-outfit: var(--font-outfit);
 
 	--color-border: hsl(var(--border));
@@ -50,9 +51,9 @@
 		0% {
 			width: 0;
 		}
-	  100% {
+		100% {
 			width: 100%;
-  	}
+		}
 	}
 }
 
@@ -191,14 +192,14 @@ pre > code {
 }
 
 .underline-slide {
-  @apply relative font-bold text-neutral-900 dark:text-neutral-100 transition-all duration-300;
+	@apply relative font-bold text-neutral-900 dark:text-neutral-100 transition-all duration-300;
 }
 
 .underline-slide::after {
-  content: "";
-  @apply absolute left-0 bottom-0 h-[2px] w-full bg-current scale-x-0 origin-left transition-transform duration-300;
+	content: "";
+	@apply absolute left-0 bottom-0 h-[2px] w-full bg-current scale-x-0 origin-left transition-transform duration-300;
 }
 
 .underline-slide:hover::after {
-  @apply scale-x-100;
+	@apply scale-x-100;
 }

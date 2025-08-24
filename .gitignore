@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# Optional biome cache
+.biome-cache
+
 # debug
 npm-debug.log*
 yarn-debug.log*
